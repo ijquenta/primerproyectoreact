@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/primerproyectoreact/static/css/main.c855abdb.css",
+    "main.js": "/primerproyectoreact/static/js/main.1beb4cc7.js",
+    "static/media/bg3.webp": "/primerproyectoreact/static/media/bg3.c03431093c2490ebcf8b.webp",
+    "index.html": "/primerproyectoreact/index.html",
+    "main.c855abdb.css.map": "/primerproyectoreact/static/css/main.c855abdb.css.map",
+    "main.1beb4cc7.js.map": "/primerproyectoreact/static/js/main.1beb4cc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c855abdb.css",
+    "static/js/main.1beb4cc7.js"
+  ]
+}
