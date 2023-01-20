@@ -1,13 +1,37 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* background-image: radial-gradient(circle at 87.5% 12.5%, #cbcd53 0, #d3c548 7.14%, #dbbc3e 14.29%, #e1b234 21.43%, #e7a62c 28.57%, #ec9925 35.71%, #f08b20 42.86%, #f37b1f 50%, #f56922 57.14%, #f75728 64.29%, #f94130 71.43%, #fa263a 78.57%, #fa0044 85.71%, #f80050 92.86%, #f6005e 100%); */
+  background: hsla(207, 80%, 59%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(207, 80%, 59%, 1) 0%,
+    hsla(45, 100%, 74%, 1) 1%,
+    hsla(49, 78%, 37%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(207, 80%, 59%, 1) 0%,
+    hsla(45, 100%, 74%, 1) 1%,
+    hsla(49, 78%, 37%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(207, 80%, 59%, 1) 0%,
+    hsla(45, 100%, 74%, 1) 1%,
+    hsla(49, 78%, 37%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#45A0EA", endColorstr="#FFDE7A", GradientType=1 );
+  color: #1e1e1f;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }

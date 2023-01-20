@@ -1,0 +1,8 @@
+.TodoCounter {
+    font-size: 24px;
+    text-align: center;
+    /* margin: 0; */
+    padding: 48px;
+    background-image: url(/home/ijquenta/personalProjects/primerproyectoreact/public/bg3.webp);
+    border-radius: 1em;
+}
